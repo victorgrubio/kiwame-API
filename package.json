@@ -1,0 +1,44 @@
+{
+  "name": "lps-rest-api",
+  "version": "0.0.1",
+  "private": true,
+  "description": "New Swagger API Project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "basic-auth": "^1.0.4",
+    "basic-auth-connect": "^1.0.0",
+    "bcrypt": "^4.0.1",
+    "csv-parser": "2.3.2",
+    "express": "4.17.1",
+    "express-busboy": "^8.0.0",
+    "express-validator": "^2.20.5",
+    "fast-stats": "0.0.3",
+    "firebase-admin": "8.11.0",
+    "fs": "0.0.1-security",
+    "jimp": "0.10.3",
+    "jsonwebtoken": "8.5.1",
+    "kafka-node": "5.0.0",
+    "mkdirp": "1.0.4",
+    "mongoose": "5.9.12",
+    "mongoose-i18n-localize": "^0.3.0",
+    "morgan-body": "^2.4.14",
+    "prompt": "^1.0.0",
+    "readable-stream": "3.6.0",
+    "sparkpost": "2.1.4",
+    "swagger-express-mw": "^0.7.0",
+    "swagger-router": "^0.7.4",
+    "swagger-tools": "0.10.4",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "swagger project test"
+  }
+}

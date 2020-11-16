@@ -1,0 +1,82 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "medical API",
+        "app_desc": "medical API app",
+        "node_port": 8090,
+        "authSecret":"*K!w4m3_S3Cr3t*",
+        "issuer":"KiwameAPIGATV",
+        "images_url":"http://138.4.47.33:8163/food/images",
+        "images_path":"images",
+        "secret":"$2a$10$QjUf4v9AodmbW5M3Po.T.O7CKLgKaof68ganHV77PQQTdZ39WN/bq",
+        "salt_rounds":10,
+        "dashboardUrl":"http://localhost:3000",
+        "url":"http://localhost",
+        "database": "mongodb://localhost/kiwame",
+        "sparkport_api_key":"ffdb0e701b4b6a351940a4f833ff981b5d30847d",
+        "languages":["en","es"],
+        "consumerTopics":["ingredients","recommendations"],
+        "kafkaBroker":"192.168.0.159:9092",
+        "firebaseJsonPath":"../../config/kiwame-efe6a-firebase-adminsdk-6mpbm-9865b68074.json",
+        "firebaseDBUrl":"https://kiwame-efe6a.firebaseio.com",
+        "limit":50
+    },
+    "testing": {
+        "config_id": "testing",
+        "database": "my-app-db-test"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 8080,
+        "database": "my-app-db-stag"
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8080,
+        "database": "my-app-db-prod"
+    },
+    "docker_prod": {
+        "config_id": "docker_prod",
+        "app_name": "medical API",
+        "app_desc": "medical API app",
+        "node_port": 8090,
+        "authSecret":"*K!w4m3_S3Cr3t*",
+        "issuer":"KiwameAPIGATV",
+        "images_url":"http://kiwame_api:8090/food/images",
+        "images_path":"images",
+        "secret":"$2a$10$QjUf4v9AodmbW5M3Po.T.O7CKLgKaof68ganHV77PQQTdZ39WN/bq",
+        "salt_rounds":10,
+        "dashboardUrl":"http://138.4.47.33:8162",
+        "url":"http://localhost",
+        "database": "mongodb://mongo:27017/kiwame",
+        "sparkport_api_key":"ffdb0e701b4b6a351940a4f833ff981b5d30847d",
+        "languages":["en","es"],
+        "consumerTopics":["ingredients","recommendations"],
+        "kafkaBroker":"kafka:9092",
+        "firebaseJsonPath":"../../config/kiwame-71a02-firebase-adminsdk-kdhym-c14c0266d4.json",
+        "firebaseDBUrl":"https://kiwame-71a02.firebaseio.com"
+
+    },
+    "docker_dev": {
+        "config_id": "docker_dev",
+        "app_name": "medical API",
+        "app_desc": "medical API app",
+        "node_port": 8090,
+        "authSecret":"*K!w4m3_S3Cr3t*",
+        "issuer":"KiwameAPIGATV",
+        "images_url":"http://kiwame_dev_api:8090/food/images",
+        "images_path":"images",
+        "secret":"$2a$10$QjUf4v9AodmbW5M3Po.T.O7CKLgKaof68ganHV77PQQTdZ39WN/bq",
+        "salt_rounds":10,
+        "dashboardUrl":"http://kiwame_dev_dashboard_1",
+        "url":"http://localhost",
+        "database": "mongodb://mongo:27017/kiwame",
+        "sparkport_api_key":"ffdb0e701b4b6a351940a4f833ff981b5d30847d",
+        "languages":["en","es"],
+        "consumerTopics":["ingredients","recommendations"],
+        "kafkaBroker":"kafka:9092",
+        "firebaseJsonPath":"../../config/kiwame-71a02-firebase-adminsdk-kdhym-c14c0266d4.json",
+        "firebaseDBUrl":"https://kiwame-71a02.firebaseio.com"
+
+    }
+}
